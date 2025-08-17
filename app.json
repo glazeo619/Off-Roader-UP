@@ -8,21 +8,22 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "primaryColor": "#000000",
-
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
-    "updates": { "fallbackToCacheTimeout": 0 },
-    "assetBundlePatterns": ["**/*"],
-
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.glazeo.offroaderup",
-      "buildNumber": "2",
+      "buildNumber": "4",
       "icon": "./assets/icon.png",
       "splash": {
         "image": "./assets/splash.png",
@@ -34,12 +35,14 @@
         "CFBundleDisplayName": "Off Roader Up",
         "CFBundleName": "Off Roader Up",
         "LSRequiresIPhoneOS": true,
-        "UIRequiredDeviceCapabilities": ["armv7"]
+        "UIRequiredDeviceCapabilities": [
+          "armv7"
+        ]
       },
-      "appStoreUrl": "https://apps.apple.com/app/off-roader-up/id[APP_ID]",
-      "config": { "usesNonExemptEncryption": false }
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
-
     "android": {
       "package": "com.glazeo.offroaderup",
       "versionCode": 2,
@@ -56,24 +59,20 @@
       "permissions": [
         "android.permission.INTERNET",
         "android.permission.ACCESS_NETWORK_STATE"
-      ],
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.glazeo.offroaderup"
-    },
-
-    "web": { "favicon": "./assets/favicon.png" },
-
-    "extra": {
-      "eas": { "projectId": "e3ee4059-a52a-4cd4-92e1-45d90deea66f" }
-    },
-
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "ios": { "newArchEnabled": true },
-          "android": { "newArchEnabled": true }
-        }
       ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3ee4059-a52a-4cd4-92e1-45d90deea66f"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-video",
+      "expo-web-browser"
     ]
   }
 }
