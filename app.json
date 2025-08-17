@@ -8,44 +8,42 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "primaryColor": "#000000",
+
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "tabletImage": "./assets/splash.png"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+
+    "updates": { "fallbackToCacheTimeout": 0 },
+    "assetBundlePatterns": ["**/*"],
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.glazeo.offroaderup",
-      "buildNumber": "5",
-      "icon": "./assets/icon.png",
-      "splash": {
-        "image": "./assets/splash.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#ffffff",
-        "tabletImage": "./assets/splash.png"
-      },
+      "buildNumber": "7",
       "infoPlist": {
         "CFBundleDisplayName": "Off Roader Up",
         "CFBundleName": "Off Roader Up",
         "LSRequiresIPhoneOS": true,
-        "UIRequiredDeviceCapabilities": [
-          "armv7"
-        ]
+        "UIRequiredDeviceCapabilities": ["armv7"],
+
+        "NSCalendarsUsageDescription": "Off Roader Up lets you save trail plans, events, and reminders to your calendar.",
+        "NSContactsUsageDescription": "Off Roader Up can share trip plans with contacts and let you quickly invite friends.",
+        "NSCameraUsageDescription": "Off Roader Up uses the camera to scan trail markers and capture photos/videos of your trips.",
+        "NSLocationWhenInUseUsageDescription": "Off Roader Up uses your location to show nearby trails and track routes while you use the app.",
+
+        "NSPhotoLibraryUsageDescription": "Off Roader Up needs access to your photo library to save and attach trail photos.",
+        "NSMicrophoneUsageDescription": "Off Roader Up uses the microphone when recording video notes."
       },
-      "config": {
-        "usesNonExemptEncryption": false
-      }
+      "config": { "usesNonExemptEncryption": false }
     },
+
     "android": {
       "package": "com.glazeo.offroaderup",
-      "versionCode": 2,
+      "versionCode": 3,
       "icon": "./assets/icon.png",
       "splash": {
         "image": "./assets/splash.png",
@@ -61,14 +59,13 @@
         "android.permission.ACCESS_NETWORK_STATE"
       ]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
+
+    "web": { "favicon": "./assets/favicon.png" },
+
     "extra": {
-      "eas": {
-        "projectId": "e3ee4059-a52a-4cd4-92e1-45d90deea66f"
-      }
+      "eas": { "projectId": "e3ee4059-a52a-4cd4-92e1-45d90deea66f" }
     },
+
     "plugins": [
       "expo-asset",
       "expo-video",
