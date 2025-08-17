@@ -1,41 +1,24 @@
 {
-  "cli": {
-    "version": ">= 12.0.0"
-  },
+  "cli": { "version": ">= 11.0.0" },
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
-    "preview": {
-      "distribution": "internal",
-      "ios": {
-        "resourceClass": "m1-medium"
-      },
-      "android": {
-        "buildType": "apk"
-      }
-    },
     "production": {
+      "distribution": "store",
       "ios": {
-        "resourceClass": "m1-medium"
+        "resourceClass": "m-medium",
+        "autoIncrement": "buildNumber"
       },
       "android": {
-        "buildType": "app-bundle"
+        "gradleCommand": ":app:bundleRelease",
+        "autoIncrement": "versionCode"
       }
     }
   },
   "submit": {
     "production": {
       "ios": {
-        "appleId": "glazeo619@gmail.com",
-        "ascAppId": "TBD_APP_STORE_CONNECT_APP_ID",
-        "appleTeamId": "2frw4f2tlm"
+        "ascAppId": null
       },
-      "android": {
-        "serviceAccountKeyPath": "./path-to-service-account-key.json",
-        "track": "production"
-      }
+      "android": {}
     }
   }
 }
