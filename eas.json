@@ -8,9 +8,7 @@
   "submit": {
     "production": {
       "ios": {
-        "credentials": {
-          "ascApiKeyPath": "./asc/appstore-connect.json"
-        }
+        "ascApiKeyPath": "./asc/appstore-connect.json"
       }
     }
   }
