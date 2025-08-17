@@ -1,0 +1,41 @@
+{
+  "cli": {
+    "version": ">= 12.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "glazeo619@gmail.com",
+        "ascAppId": "TBD_APP_STORE_CONNECT_APP_ID",
+        "appleTeamId": "2frw4f2tlm"
+      },
+      "android": {
+        "serviceAccountKeyPath": "./path-to-service-account-key.json",
+        "track": "production"
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "expo": {
+    "owner": "glazeo",
+    "name": "Off Roader Up",
+    "slug": "off-roader-up",
+    "scheme": "offroadup",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "primaryColor": "#000000",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.glazeo.offroaderup",
+      "buildNumber": "2",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff",
+        "tabletImage": "./assets/splash.png"
+      },
+      "infoPlist": {
+        "CFBundleDisplayName": "Off Roader Up",
+        "CFBundleName": "Off Roader Up",
+        "LSRequiresIPhoneOS": true,
+        "UIRequiredDeviceCapabilities": [
+          "armv7"
+        ]
+      },
+      "appStoreUrl": "https://apps.apple.com/app/off-roader-up/id[APP_ID]",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.glazeo.offroaderup",
+      "versionCode": 2,
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.vibecode.offroadup"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3ee4059-a52a-4cd4-92e1-45d90deea66f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "newArchEnabled": true
+          },
+          "android": {
+            "newArchEnabled": true
+          }
+        }
+      ]
+    ]
+  }
+}
