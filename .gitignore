@@ -40,3 +40,7 @@ android/
 # Apple ASC key
 AuthKey_*.p8
 *.p8
+
+asc/
+*.p8
+
