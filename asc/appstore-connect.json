@@ -1,0 +1,6 @@
+{
+  "type": "user-defined",
+  "issuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021",
+  "keyId": "55H4R8PP9U",
+  "key": "-----BEGIN PRIVATE KEY-----\nMIGT...paste everything from your .p8 file here...IDAQAB\n-----END PRIVATE KEY-----"
+}

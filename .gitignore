@@ -38,12 +38,10 @@ ios/
 android/
 
 # Apple ASC key
+asc/*.p8
 AuthKey_*.p8
-*.p8
 
-asc/
-*.p8
 
-asc/
-asc/
-*.p8
+
+# Do not commit Apple keys
+asc/*.p8

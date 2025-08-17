@@ -8,7 +8,9 @@
   "submit": {
     "production": {
       "ios": {
-        "ascApiKeyPath": "./asc/appstore-connect.json"
+        "ascApiKeyPath": "./asc/AuthKey_55H4R8PP9U.p8",
+        "ascApiKeyId": "55H4R8PP9U",
+        "ascApiKeyIssuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021"
       }
     }
   }
