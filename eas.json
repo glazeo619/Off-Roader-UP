@@ -2,15 +2,20 @@
   "cli": { "appVersionSource": "remote" },
   "build": {
     "production": {
-      "env": { "EAS_USE_BUN": "0" }
+      "ios": { "resourceClass": "m-medium" }
     }
   },
   "submit": {
     "production": {
-      "ios": {
-        "ascApiKeyPath": "./asc/AuthKey_55H4R8PP9U.p8",
+      "ios":{
+        "autoIncrement": true
+      },
+      "android": {
+        "autoIncrement": true,
+        "ascApiKeyPath": "./asc/appstore-connect.json",
         "ascApiKeyId": "55H4R8PP9U",
-        "ascApiKeyIssuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021"
+        "ascApiKeyIssuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021",
+        "ascAppId": "6751158599"
       }
     }
   }
