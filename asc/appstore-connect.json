@@ -2,5 +2,5 @@
   "type": "user-defined",
   "issuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021",
   "keyId": "55H4R8PP9U",
-  "key": "-----BEGIN PRIVATE KEY-----\nMIGT...paste everything from your .p8 file here...IDAQAB\n-----END PRIVATE KEY-----"
+  "key": "-----BEGIN PRIVATE KEY-----\nMIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgz5IAjKqOMIZESD0J\niOhlxHzOCscqrxDN68DOdEgPvXygCgYIKoZIzj0DAQehRANCAAQQgsMzLUGeOhSH\nQlYsRCoPTrKSIeo44lII/B88f2IzNGQ3BWiu4ZpWHlz++iVGdeMT7TSekxNzI9ny\nQ0GMuet4\n-----END PRIVATE KEY-----"
 }

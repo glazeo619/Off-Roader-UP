@@ -43,5 +43,4 @@ AuthKey_*.p8
 
 
 
-# Do not commit Apple keys
-asc/*.p8
+
