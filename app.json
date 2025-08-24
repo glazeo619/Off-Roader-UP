@@ -3,6 +3,7 @@
     "name": "Off Roader Up",
     "slug": "off-roader-up",
     "scheme": "offroaderup",
+    "userInterfaceStyle": "automatic",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
