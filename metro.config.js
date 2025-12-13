@@ -1,10 +1,7 @@
-// Learn more https://docs.expo.io/guides/customizing-metro
 const { getDefaultConfig } = require('expo/metro-config');
-const { withNativeWind } = require('nativewind/metro');
 
-/** @type {import('expo/metro-config').MetroConfig} */
 const config = getDefaultConfig(__dirname);
 
-config.resolver.useWatchman = false;
-
-module.exports = withNativeWind(config, { input: './global.css' });
+// If you use css-interop/nativewind, DO NOT set a custom transformer unless you know it's required.
+// Keep this default unless we explicitly add css-interop integration back.
+module.exports = config;

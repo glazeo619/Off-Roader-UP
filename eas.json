@@ -1,12 +1,9 @@
 {
-  "cli": {
-    "appVersionSource": "local"
-  },
   "build": {
     "production": {
       "ios": {
         "distribution": "store",
-        "autoIncrement": "buildNumber"
+        "autoIncrement": true
       }
     }
   },

@@ -22,7 +22,7 @@
         "NSPhotoLibraryUsageDescription": "We need access to your photo library so you can choose photos for listings.",
         "NSPhotoLibraryAddUsageDescription": "We save photos to your library only when you choose to."
       },
-      "buildNumber": "3"
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,6 +40,9 @@
       }
     },
     "owner": "glazeo",
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "cli": {
+      "appVersionSource": "remote"
+    }
   }
 }
