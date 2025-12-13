@@ -1,23 +1,20 @@
 {
   "cli": {
-    "appVersionSource": "remote"
+    "appVersionSource": "local"
   },
   "build": {
     "production": {
       "ios": {
-        "resourceClass": "m-medium",
-        "credentialsSource": "remote",
-        "autoIncrement": true
+        "distribution": "store",
+        "autoIncrement": "buildNumber"
       }
     }
   },
   "submit": {
     "production": {
       "ios": {
-        "ascApiKeyPath": "asc/AuthKey_TPPLVJ6MTA.p8",
-        "ascApiKeyIssuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021",
-        "ascApiKeyId": "TPPLVJ6MTA",
-        "ascAppId": "6751158599"
+        "ascAppId": "6751158599",
+        "ascApiKeyPath": "asc/appstore-connect.json"
       }
     }
   }
