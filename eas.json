@@ -4,10 +4,6 @@
       "ios": {
         "distribution": "store",
         "autoIncrement": true
-      },
-      "env": {
-        "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
-        "NPM_CONFIG_STRICT_PEER_DEPS": "false"
       }
     }
   },
@@ -15,7 +11,9 @@
     "production": {
       "ios": {
         "ascAppId": "6751158599",
-        "ascApiKeyPath": "asc/appstore-connect.json"
+        "ascApiKeyPath": "asc/appstore-connect.json",
+        "ascApiKeyIssuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021",
+        "ascApiKeyId": "GF9R474YG5"
       }
     }
   }
