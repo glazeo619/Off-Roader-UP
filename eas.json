@@ -2,16 +2,10 @@
   "build": {
     "production": {
       "ios": {
-        "distribution": "store",
-        "autoIncrement": true
-      }
-    }
-  },
-  "submit": {
-    "production": {
-      "ios": {
-        "ascAppId": "6751158599",
-        "appleId": "glazeo619@gmail.com"
+        "distribution": "store"
+      },
+      "env": {
+        "EAS_USE_BUN": "0"
       }
     }
   }

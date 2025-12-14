@@ -1,0 +1,17 @@
+{
+  "build": {
+    "production": {
+      "ios": {
+        "distribution": "store"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "6751158599",
+        "ascApiKeyPath": "asc/appstore-connect.json"
+      }
+    }
+  }
+}

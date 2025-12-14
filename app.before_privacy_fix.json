@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Off Roader Up",
+    "slug": "off-roader-up",
+    "scheme": "offroaderup",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E75A0B"
+    },
+    "ios": {
+      "bundleIdentifier": "com.glazeo.offroaderup",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E75A0B"
+      }
+    },
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-mail-composer",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e3ee4059-a52a-4cd4-92e1-45d90deea66f"
+      }
+    },
+    "owner": "glazeo"
+  }
+}

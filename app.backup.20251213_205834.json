@@ -16,13 +16,9 @@
       "infoPlist": {
         "NSCalendarsUsageDescription": "We access your calendar only if you choose to save meetups, reminders, or listing-related events.",
         "NSContactsUsageDescription": "We use your contacts only if you choose to share a listing or invite a friend. We don’t upload your address book.",
-        "ITSAppUsesNonExemptEncryption": false,
-        "NSCameraUsageDescription": "We use the camera so you can take photos for your listings and profile.",
-        "NSLocationWhenInUseUsageDescription": "We use your location to show nearby listings and improve map results.",
-        "NSPhotoLibraryUsageDescription": "We need access to your photo library so you can choose photos for listings.",
-        "NSPhotoLibraryAddUsageDescription": "We save photos to your library only when you choose to."
+        "ITSAppUsesNonExemptEncryption": false
       },
-      "buildNumber": "3"
+      "buildNumber": "2"
     },
     "android": {
       "adaptiveIcon": {
@@ -39,7 +35,6 @@
         "projectId": "e3ee4059-a52a-4cd4-92e1-45d90deea66f"
       }
     },
-    "owner": "glazeo",
-    "version": "1.0.1"
+    "owner": "glazeo"
   }
 }
