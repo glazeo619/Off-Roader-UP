@@ -11,9 +11,7 @@
     "production": {
       "ios": {
         "ascAppId": "6751158599",
-        "ascApiKeyPath": "asc/appstore-connect.json",
-        "ascApiKeyIssuerId": "187e0c3d-4d98-45c3-8707-12c7d8047021",
-        "ascApiKeyId": "GF9R474YG5"
+        "appleId": "glazeo619@gmail.com"
       }
     }
   }
